@@ -1,0 +1,178 @@
+ .label {
+  color: #ffffff;
+  width: 100%;
+ }
+
+ nav {
+  background: rgb(47,40,65);
+
+ }
+
+ .form {
+    color: #ffffff;
+    align-items: center;
+    padding: 20px;
+ }
+
+ #botao {
+     font-size: 22px;
+     font-family: arial;
+     font-weight: bold;
+ }
+
+  #textnav1 {
+    color: #2ecc71;
+    font-weight: bold
+  }
+
+  #textnav2 {
+    color: #2ecc71;
+    font-weight: bold
+  }
+
+  #password, #email, #password-confirmation, #username {
+    color:#ffffff;
+    background-color: #514869;
+    padding: 6px;
+    align-items: center;
+    width: 100%;
+    border-radius: 27px;
+  }
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #EntrarLogin {
+    font-size: small;
+    font-family: arial;
+    color: #ffffff;
+    position: center;
+    top: 10%;
+    text-align: center;
+  }
+
+  h2 {
+  color: rgb(0,255,149);
+  text-align: center;
+  font-size: 200%;
+  font-family: arial;
+  font-weight: bold
+ 
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(36,30,47);
+  }
+  
+  .container {
+    background-color: rgb(47,40,65);
+    border-radius: 30px;
+    width: 400px;
+    max-width: 100%;
+    
+  }
+  
+  .header {
+    background-color: rgb(47,40,65);
+    
+    text-shadow: #ffffff;
+    font-size: medium;
+    border-radius: 30px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 1px;
+    margin: 1px;
+    
+  }
+  
+  .form {
+    padding: 20px;
+    width: 100%;
+    position: center;
+  }
+  
+  .form-control {
+    margin-bottom: 1px;
+    padding-bottom: 20px;
+    position: relative;
+    padding: 1px;
+  }
+  
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input {
+    border: 2px solid rgb(47,40,65);
+    display: flex;
+    border-radius: 10px;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+  }
+  
+  .form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+  }
+  
+  .form button {
+    background-color: #05E981;
+    border: 10px solid rgb(47,40,65);
+    color: rgb(50,17,55);
+    font-size: 14px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    
+  }
+  
+  /* Error and Success */
+  .form-control.success input {
+    border-color: #2ecc71;
+  }
+  
+  .form-control.error input {
+    border-color: #7e5c58;
+  }
+  
+  .form-control.success i.fa-check-circle {
+    color: #a7b4ac;
+    visibility: visible;
+  }
+  
+  .form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+  }
+  
+  .form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+  }
+ 
+
+
+
+

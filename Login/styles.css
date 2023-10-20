@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  h2 {
+    text-align: center;
+    padding: 1px;
+    width: 55px;
+    height: 55px;
+    position: center;
+    
+  }
+
+  #logo {
+    display: inline-block;
+    text-align: center;
+    }
+  
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(36,30,47);
+  
+
+  }
+
+  nav {
+    background-color: rgb(47,40,65);
+  }
+
+  #email, #password {
+    color:#ffffff;
+    background-color: #514869;
+    padding: 6px 6px 6px 1.2rem;
+    align-items: center;
+    width: 93%;
+    border-radius: 27px;
+  }
+
+  #botao {
+    font-size: 22px;
+    font-family: arial;
+    font-weight: bold;
+    color: rgb(36,30,47);
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+  
+.container {
+  background-color: rgb(47,40,65);
+  border-radius: 30px;
+  width: 400px;
+  max-width: 100%;
+  position: center;
+  margin: 16px;
+ 
+  }
+  
+  .header {
+    background-color: rgb(47,40,65);
+    padding: 0px;
+    border-radius: 30px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+  }
+  
+  .form {
+    padding: 20px;
+  }
+  
+
+  
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input {
+    border: 2px solid #141111;
+    display: block;
+    border-radius: 10px;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+
+  
+  .form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+  }
+  
+  .form button {
+    background-color: #05E981;
+    border: 2px solid rgb(47,40,65);
+    color: #a08f8f;
+    font-size: 10px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  /* Error and Success */
+  .form-control.success input {
+    border-color: #2ecc71;
+  }
+  
+  .form-control.error input {
+    border-color: #e74c3c;
+  }
+  
+  .form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  }
+  
+  .form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+  }
+  
+  .form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+  }
+
+  .form-input {
+    margin: 2rem 0 3.5rem 0 !important;
+  }
+  
+  input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    margin: 0 0 10px 0 !important;
+  }
+
+  .body-container {
+    width: 100%;
+    height:  calc(100% - 64px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  html, body {
+    height:100%;
+    min-height:100%; 
+  }
+    

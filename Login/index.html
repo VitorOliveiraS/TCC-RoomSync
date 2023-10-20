@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" href="imagens/4.png" type="image/x-icon">
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="scripts.js" defer>
+    src = "https://kit.fontawesome.com/f9e19193d6.js"
+    crossorigin = "anonymous"
+  </script>
+
+
+  <title>Login</title>
+
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper fixed-top">
+
+      <a href="#" data-activates="menu-mobile" class="button-collapse">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+      </ul>
+      <ul class="side-nav" id="menu-mobile">
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="body-container">
+    <div class="container">
+      <div id="header" class="header">
+        <img id="logo" src="./imagens/4.png" height="150">
+      </div>
+
+      <form id="form" class="form">
+
+        <div class="form-input">
+          <div class="form-control">
+            <label for="email"></label>
+            <input type="text" id="email" placeholder="Digite seu email" maxlength="50" />
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+          </div>
+
+          <div class="form-control">
+            <label for="password"></label>
+            <input type="password" id="password" placeholder="Digite sua senha" maxlength="120" />
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+          </div>
+        </div>
+        <button id="botao" type="submit">Entrar</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
